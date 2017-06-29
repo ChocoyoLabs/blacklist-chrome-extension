@@ -1,0 +1,9 @@
+.blacklist_container {
+  text-align: center !important;
+  border-top: 1px solid #e9eaed;
+  padding: 12px;
+}
+
+.blacklist_button {
+  font-weight: bold;
+}
