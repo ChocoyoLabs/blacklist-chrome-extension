@@ -14,10 +14,10 @@ $(document).ready(function () {
 
   var button = jQuery('<a/>', {
     id: 'blacklist_button',
-    href: 'http://blacklist.chocoyolabs.com/?uid=' + uid,
+    href: 'https://chocoyolabs-blacklist.herokuapp.com/user/' + uid,
     target: '_blank',
-    text: 'BLACKLIST',
-    class: 'button button-flat-caution blacklist_button'
+    text: 'Agregar a lista negra',
+    class: 'blacklist_button'
   }).appendTo(container);
 
   container.appendTo('.fbTimelineSection');

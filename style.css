@@ -6,4 +6,13 @@
 
 .blacklist_button {
   font-weight: bold;
+  border: 1px solid #ced0d4;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #e9ebee;
+  color: #4b4f56;
+}
+
+.blacklist_button:hover {
+  text-decoration: none;
 }
