@@ -3,9 +3,6 @@ $(document).ready(function () {
   var head = $('head').html();
   var parts = head.match(re);
   var uid = parts[1];
-  //alert(parts[1]);
-  //$('.fbTimelineSection').append('<span style="text-align: center; width: 168px; padding: 12px; margin: 18px; background-color: #333333; color: #FFFFFF"><input style="color: blue;" readonly="readonly" value="' + parts[1] + '"/></span>');
-
 
   var container = jQuery('<div/>', {
     id: 'blacklist_container',
@@ -14,7 +11,7 @@ $(document).ready(function () {
 
   var button = jQuery('<a/>', {
     id: 'blacklist_button',
-    href: 'https://chocoyolabs-blacklist.herokuapp.com/user/' + uid,
+    href: 'http://blacklist.chocoyolabs.com/user/' + uid,
     target: '_blank',
     text: 'Agregar a lista negra',
     class: 'blacklist_button'
